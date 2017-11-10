@@ -3,3 +3,5 @@
 <a href="/login">Login</a>
 <a href="/user">Sign Up</a>
 <a href="/logout">Logout</a>
+
+<p>Logged in as: <%= @current_user.try(:email) %></p>
